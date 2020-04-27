@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "488d28c7e2f7f77af7c42e9f4b044c50",
+        "name": "im12.jpg",
+        "path": "file:C:/Users/st/Desktop/TrainYourOwnYOLO-master/Data/Source_Images/Training_Images/im12.jpg",
+        "size": {
+            "width": 520,
+            "height": 293
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "XZmWB-f_u",
+            "type": "RECTANGLE",
+            "tags": [
+                "needle"
+            ],
+            "boundingBox": {
+                "height": 32.595354523227385,
+                "width": 40.85458304617505,
+                "left": 245.84424534803586,
+                "top": 108.10083664425429
+            },
+            "points": [
+                {
+                    "x": 245.84424534803586,
+                    "y": 108.10083664425429
+                },
+                {
+                    "x": 286.69882839421086,
+                    "y": 108.10083664425429
+                },
+                {
+                    "x": 286.69882839421086,
+                    "y": 140.69619116748166
+                },
+                {
+                    "x": 245.84424534803586,
+                    "y": 140.69619116748166
+                }
+            ]
+        }
+    ],
+    "version": "2.1.0"
+}
