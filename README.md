@@ -15,3 +15,6 @@ I hope you enjoyed this tutorial and I hope it helped you get our own computer v
 
 - Please **star** ⭐ this repo to get notifications on future improvements and
 - Please **fork** 🍴 this repo if you like to use it as part of your own project.
+
+Mediafire link to trained weights: http://www.mediafire.com/file/5y34zuv5u77v9vr/trained_weights_final.h5/file
+Trained weights must be downloaded from mediafire and placed in folder Data/Model_Weights
