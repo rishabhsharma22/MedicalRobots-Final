@@ -1,4 +1,3 @@
-
 import os
 import moviepy.editor as mp
 import cv2
@@ -79,6 +78,10 @@ with open(os.path.join(os.getcwd(), "Detection_Results.csv")) as csvfile:
     speedInCm = magnitude * .0264
     answer = speedInCm / timeElapsed
     print('THE SPEED IS', answer, 'cm/s!!!')
+    if answer > 3.135 and answer < 3.3465 or answer > 4.75 and answer< 5.25 or answer > 7.885 and answer < 8.715:
+        print('THE SPEED IS SAFE')
+    else:
+        print('THE SPEED IS UNSAFE')
 
 cap = cv2.VideoCapture("results.mp4")
 while (cap.isOpened()):
